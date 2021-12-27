@@ -1,0 +1,60 @@
+body{
+
+    background: linear-gradient(#e66485,#9298e5);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#content-wrapper{
+
+    margin: 0px auto;
+    margin-top: 2rem;
+    width: 20rem;
+}
+#display{
+    height: 3.0rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.2rem;
+    border:rgb(60, 60, 60) solid 0.2rem;
+    background-color: white;
+    text-align: right; /* to display. number from right*/
+    vertical-align: middle;
+    font-size: 2.5rem;
+    overflow: hidden;
+}
+#display-text{
+
+    background-color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+#keys{
+
+    font-size: 1.8rem;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+table{
+
+    background-color: turquoise;
+    width: 20rem;
+    border-spacing: 0.3rem;
+    border:rgb(60, 60, 60) solid 0.15rem;
+    padding:0.2em;
+}
+table td{
+
+    width:3.7rem;
+    height: 3rem;
+    padding:0.1rem;
+    border:0.1rem solid grey;
+    border-radius: 3rem;
+    background-color: rgb(245,245,245);
+    color: rgb(60, 60, 60);
+}
